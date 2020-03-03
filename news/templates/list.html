@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+  <h3>Plane Articles {% if articles %}<small class="text-muted">({{ articles|length }} Article{{ articles|length|pluralize:"s" }})</small>{% endif %}</h3>
+  <hr>
+  {% if articles %}
+    <div class="card-rows">
+      {% for article in articles %}
+        {% include "partials/card.html" %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="alert alert-primary" role="alert">No articles to display.</div>
+  {% endif %}
+{% endblock %}

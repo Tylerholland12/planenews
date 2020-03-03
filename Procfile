@@ -1,0 +1,1 @@
+web: gunicorn gameday.wsgi --log-file -
