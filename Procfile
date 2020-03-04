@@ -1,1 +1,1 @@
-web: gunicorn gameday.wsgi --log-file -
+web: gunicorn planenews.wsgi --log-file -
