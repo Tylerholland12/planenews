@@ -7,3 +7,5 @@ A common place where people can just share there opinions on the type of planes 
 https://github.com/tylerholland12/planenews/blob/master/proposal.md
 
 #Deployment URL
+
+https://planenews.herokuapp.com/
