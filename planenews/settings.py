@@ -25,7 +25,7 @@ SECRET_KEY = 'im-t&4ddv_b0pzov8sq6&9$nb^@_9(q9+mnq5jjthzo%cv1o2d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1', 'planenews.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1', 'planenewss.herokuapp.com']
 
 
 # Application definition
