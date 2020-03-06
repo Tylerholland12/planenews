@@ -28,3 +28,4 @@ urlpatterns = [
 
     path('api/', include('api.urls')),
 ]
+
