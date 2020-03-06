@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 from news.models import Article
 from django.urls import reverse
 
+
 class ArticleTestCase(TestCase):
     def test_true_is_true(self):
 
