@@ -1,0 +1,1 @@
+My proposal is a platform where a person can either create an account or read other peoples articles if they are not logged in. These articles are for people who would like reviews on planes and the experience that people have had with certain planes. People can state any opinion they have about a specific air craft
