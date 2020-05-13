@@ -29,13 +29,13 @@ Run these commands to install using Docker
 ### Build Image
 
 ```bash
-docker build -t image-name .
+$ docker build -t image-name .
 ```
 
 ### Run Container
 
 ```bash
-    docker run --rm --name container-name image-name
+$ docker run --rm --name container-name image-name
 ```
 
 ### Docker-Compose
@@ -43,4 +43,4 @@ docker build -t image-name .
 - Run container of this application running the web image as well as the database image
 
 ``` bash
-    docker-compose up --build
+$ docker-compose up --build
