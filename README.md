@@ -19,3 +19,28 @@ https://github.com/tylerholland12/planenews/blob/master/proposal.md
 
 
 https://planenews.herokuapp.com/
+<br>
+
+## Installation using Docker
+<br>
+Run these commands to install using Docker
+
+
+### Build Image
+
+```bash
+docker build -t image-name .
+```
+
+### Run Container
+
+```bash
+    docker run --rm --name container-name image-name
+```
+
+### Docker-Compose
+
+- Run container of this application running the web image as well as the database image
+
+``` bash
+    docker-compose up --build
