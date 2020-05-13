@@ -1,9 +1,7 @@
 FROM python:3.7
 
-# RUN apk -- no-cache --quiet add gcc make g++ bash bit openssh \
-#     postgresql-dev curl build-base libffi-dev python-dev py-pip \
-#     jpeg-dev zlib-dev libsass-dev
-# 
+# remove removes packages that aren't used
+# clean removes all unneeded files 
 RUN apt-get update && apt-get upgrade -y && apt-get autoremove && apt-get autoclean
 
 
